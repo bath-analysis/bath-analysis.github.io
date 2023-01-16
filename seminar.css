@@ -23,7 +23,4 @@ ul {list-style-type: none; margin-top:.3em; margin-bottom:0; margin-left:0; padd
     border-bottom: solid;
     border-width: 1px 0;
   }
-  tr:last-child {
-    border-bottom: none;
-  }
 }
