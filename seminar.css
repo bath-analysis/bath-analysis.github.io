@@ -1,3 +1,4 @@
+/* inherited from previous years */
 body {font-family:sans-serif}
 
 h1 {font-size:x-large; color:navy; margin-bottom:1em}
@@ -8,6 +9,7 @@ table, th, td {padding-right:20px; padding-left:0; padding-top:5px; padding-bott
 
 ul {list-style-type: none; margin-top:.3em; margin-bottom:0; margin-left:0; padding-left:0}
 
+/* try to collapse sensibly into a single column on narrow displays */
 @media all and (max-width: 600px) {
   table,
   thead,
@@ -17,3 +19,11 @@ ul {list-style-type: none; margin-top:.3em; margin-bottom:0; margin-left:0; padd
   tr {
     display: block;
   }
+  tr { 
+    border-bottom: solid;
+    border-width: 1px 0;
+  }
+  tr:last-child {
+    border-bottom: none;
+  }
+}
