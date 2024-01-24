@@ -9,6 +9,9 @@ table, th, td {padding-right:20px; padding-left:0; padding-top:5px; padding-bott
 
 ul {list-style-type: none; margin-top:.3em; margin-bottom:0; margin-left:0; padding-left:0}
 
+/* details */
+summary {color: #0000EE}
+
 /* try to collapse sensibly into a single column on narrow displays */
 @media all and (max-width: 600px) {
   table,
